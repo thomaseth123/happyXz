@@ -13,19 +13,22 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+ const message = `[Sania],
 
-Your personalized birthday message goes here.
+Assalamu Alaikum! 🌸
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+On this special day, I pray that Allah blesses you with endless happiness, health, and success.
+May every moment of your life be filled with smiles, love, and beautiful memories.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+You are truly a blessing, and I hope this birthday brings you joy as bright as your smile.
+Always keep shining, stay strong, and remember someone is wishing you the best today and always 💖
 
-Happy Birthday! 🎉
+May Allah guide you, protect you, and make all your dreams come true. ✨
 
-— [Your Name]`;
+Happy Birthday, Sania! 🎉
+
+— From Your Secret Admirer`;
+
 
   // Handle page transitions
   useEffect(() => {
