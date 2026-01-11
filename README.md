@@ -27,7 +27,7 @@ Open `http://localhost:5173`
 **File:** `src/components/Countdown.jsx` (Line 21)
 
 ```javascript
-const targetDate = new Date("2025-12-18T00:00:00");
+const targetDate = new Date("2026-02-10T00:00:00");
 ```
 
 **Format Explanation:**
@@ -98,21 +98,6 @@ Replace `public/music.mp3` with your song
 ## ��� Test Your Changes
 
 ### Using the Test Button
-
-There's a special **"��� Test Celebration"** button on the countdown page that lets you skip the timer instantly!
-
-**What it does:**
-- ✅ Skips countdown timer
-- ✅ Shows birthday celebration page immediately
-- ✅ Lets you preview everything (confetti, message, gallery, music)
-- ✅ Perfect for testing before the big day!
-
-**How to use:**
-1. Save your changes (date, names, message, photos)
-2. Make sure `npm run dev` is running
-3. Look at the countdown page
-4. Click the **"��� Test Celebration"** button below the timer
-5. Boom! ��� You'll see the full celebration instantly
 
 **Why use it:**
 - Test your message for typos
@@ -212,7 +197,7 @@ Refresh page (Ctrl + R)
 
 ### Vercel
 1. Push to GitHub
-2. [vercel.com](https://vercel.com) → Import → Deploy
+2. [vercel.com](https://vercel.com) → Import → Deploy,
 
 ### Netlify
 1. `npm run build`
