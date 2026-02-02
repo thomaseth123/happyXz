@@ -27,7 +27,7 @@ Open `http://localhost:5173`
 **File:** `src/components/Countdown.jsx` (Line 21)
 
 ```javascript
-const targetDate = new Date("2025-12-18T00:00:00");
+const targetDate = new Date("2025-02-27T00:00:00");
 ```
 
 **Format Explanation:**
@@ -76,18 +76,10 @@ const targetDate = new Date("2025-12-25T12:00:00");
 **File:** `src/components/MessageCard.jsx` (Lines 17-28)
 
 ```javascript
-const recipientName = "Divyanshi";
-const senderName = "Ashmit";
-const message = `Your message here...`;
+const recipientName = "parul";
+const senderName = "darsh";
+const message = `Happy Birthday to the girl who drives me crazy in the best way 😍🎉 Parul, your eyes are pure trouble—I swear one look and I’m already lost 🫠💘 Your hair, your vibe, your smile… everything about you is dangerously perfect. Being your boyfriend is my favorite flex 😌❤️ You make my heart race, my days brighter, and my world way more exciting just by being you 🎂✨ Today I just want to remind you how insanely beautiful, special, and loved you are—especially by me 😉💋 Happy Birthday, gorgeous 🎈🎁 I’m all yours 💖🔥`;
 ```
-
----
-
-### 3. Photos
-
-Add 6 photos to `public/images/` named: `pic1.jpg` to `pic6.jpg`
-
----
 
 ### 4. Music (Optional)
 
