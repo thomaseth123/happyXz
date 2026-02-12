@@ -34,7 +34,7 @@ const targetDate = new Date("2025-12-18T00:00:00");
 ```
 "YYYY-MM-DDTHH:MM:SS"
  ↓    ↓  ↓  ↓  ↓  ↓
- Year Mo Day Hr Min Sec
+ 2026 feb 13 12 00 00
 ```
 
 - **YYYY** = 4-digit year (2025, 2026, etc.)
@@ -57,8 +57,8 @@ const targetDate = new Date("2025-12-18T00:00:00");
 // January 15, 2026 at midnight
 const targetDate = new Date("2026-01-15T00:00:00");
 
-// June 10, 2025 at 3:30 PM
-const targetDate = new Date("2025-06-10T15:30:00");
+// feb 13, 2026 at 3:30 PM
+const targetDate = new Date("2026-02-10T15:30:00");
 
 // December 25, 2025 at noon
 const targetDate = new Date("2025-12-25T12:00:00");
