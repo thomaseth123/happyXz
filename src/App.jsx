@@ -17,7 +17,7 @@ function App() {
 
   // ⚠️ FOR TESTING: Comment out lines 18-21 to reset on every reload
   // Check localStorage to persist birthday reached state
-  const [birthdayReached, setBirthdayReached] = useState(() => {
+ const [birthdayReached, setBirthdayReached] = useState(() => {
     const saved = localStorage.getItem("birthdayReached");
     return saved === "true";
   });
@@ -96,16 +96,16 @@ function App() {
           <h1 id="heroTitle">
             {birthdayReached ? (
               <>
-                Happy Birthday <span className="highlight">[Name]</span> 🎂
+                Happy Birthday <span className="highlight">[Meetuuuuu]</span> 🎂
               </>
             ) : (
               <>
-                Counting down to <span className="highlight">[Name]'s</span>{" "}
+                Counting down to <span className="highlight">[Meeta]'s</span>{" "}
                 special day 🎂
               </>
             )}
           </h1>
-          <p>Your personalized message goes here 💗</p>
+          <p>Not To Be Dramatic...But Life's Better With You Around 💗</p>
         </section>
 
         <Countdown
@@ -116,10 +116,10 @@ function App() {
         <section className="teaser">
           <h2 id="teaserHeading">
             {birthdayReached
-              ? "💖 Ready for your surprise! 💖"
-              : "✨ A special celebration awaits you at midnight... ✨"}
+              ? "💖 Let It Unfold 💖"
+              : "✨ At The Stroke Of Midnight, Something Prepared With Care Awaits You...🌙"}
           </h2>
-          <p className="teaser-hint">Something magical is about to unfold 💫</p>
+          <p className="teaser-hint">Because Some Souls Deserve Celebration 🦋</p>
         </section>
 
         <button
@@ -128,7 +128,7 @@ function App() {
           disabled={!birthdayReached}
           onClick={() => goToPage(2)}
         >
-          🎀 Let's Celebrate
+          Await The Hour
         </button>
       </div>
 
@@ -155,7 +155,7 @@ function App() {
         </button>
         <MessageCard isActive={currentPage === 3} />
         <button className="page-nav-btn" onClick={() => goToPage(4)}>
-          📸 View Our Memories
+          📸 Take A Peek At Us
         </button>
       </div>
 
@@ -170,8 +170,8 @@ function App() {
         </button>
         <Gallery isActive={currentPage === 4} />
         <section className="final">
-          <h2 className="final-message">💖 Forever Yours — [Your Name] 💖</h2>
-          <p className="final-subtitle">Your personalized closing message ✨</p>
+          <h2 className="final-message">💖 Always A Little Yours — [Aapka AARU] 💖</h2>
+          <p className="final-subtitle">A Small Pause In Time✨</p>
         </section>
       </div>
 

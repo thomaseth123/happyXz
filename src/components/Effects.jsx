@@ -26,7 +26,7 @@ function Effects() {
       "#60D399",
     ];
 
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 6; i++) {
       setTimeout(() => {
         const balloon = document.createElement("div");
         balloon.className = "balloon";
@@ -110,9 +110,9 @@ function Effects() {
   };
 
   const launchCrackers = () => {
-    const crackerEmojis = ["🎉", "🎊", "✨", "🎆", "🎇", "💫"];
+    const crackerEmojis = ["🎉", "💗", "✨", "🎆", "🎇", "🎀"];
 
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < 6; i++) {
       setTimeout(() => {
         const cracker = document.createElement("div");
         cracker.className = "cracker";

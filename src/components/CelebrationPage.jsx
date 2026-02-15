@@ -29,22 +29,22 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
   // QNA Slides data
   const slides = [
     {
-      icon: "✨",
-      text: "It's Your Special Day Yeyey!",
+      icon: "🎀🌷",
+      text: "A Toast To The Finest Of The Lot. May Your Day Be As Radiant As Your Smile",
       type: "announcement",
     },
     {
-      icon: "✨",
-      text: "Do you wanna see what I made??",
+      icon: "⋆｡°✩ 💗 ✩°｡⋆",
+      text: "Put My Heart Into This, I Did. You Ready To See It?",
       type: "question",
       options: [
-        { text: "Yes!", value: "yes" },
+        { text: "Yes", value: "yes" },
         { text: "No", value: "no" },
       ],
     },
     {
-      icon: "✨",
-      text: "Have a look at it, Madam Jiii",
+      icon: "🙇🏻‍♂️",
+      text: "Allow Yourself A Moment To See What I've Kept For You",
       type: "announcement",
     },
   ];
@@ -302,13 +302,13 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                     }`}
                     onClick={() => handleAnswer(option.value)}
                   >
-                    {option.text} {option.value === "yes" && "👆"}
+                    {option.text} {option.value === "yes"}
                   </button>
                 ))}
               </div>
             ) : (
               <button className="next-button" onClick={handleNext}>
-                {currentSlide < slides.length - 1 ? "Next" : "Let's Go! 🎉"}
+                {currentSlide < slides.length - 1 ? "Next" : "Step Lively"}
               </button>
             )}
           </div>
@@ -332,9 +332,9 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
         <>
           {/* Buttons Section - At the TOP */}
           <div className="celebration-buttons">
-            <h2 className="celebration-title">Let's Celebrate! 🎉</h2>
+            <h2 className="celebration-title">Let's Celebrate 🛐</h2>
             <p className="celebration-subtitle">
-              Click the buttons to decorate
+              In Honor Of You
             </p>
 
             <div className="buttons-grid">
@@ -345,7 +345,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="lights"
                   onClick={() => handleButtonClick("lights")}
                 >
-                  💡 Turn On the Lights
+                  Don't Be Shy
                 </button>
               )}
 
@@ -367,7 +367,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="decorate"
                   onClick={() => handleButtonClick("decorate")}
                 >
-                  🎨 Decorate
+                  Brighten This Space ⭐
                 </button>
               )}
 
@@ -378,7 +378,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="balloons"
                   onClick={() => handleButtonClick("balloons")}
                 >
-                  🎈 Fly the Balloons
+                  Whisper A Wish 🧚🏽‍♂️
                 </button>
               )}
 
@@ -389,7 +389,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
                   data-button="message"
                   onClick={() => handleButtonClick("message")}
                 >
-                  💌 Well, I Have a Message for You Madam Ji
+                  💌 Hast A Moment For A Word Or Two? 
                 </button>
               )}
             </div>
